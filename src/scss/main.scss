@@ -1,28 +1,8 @@
 //Default varible overrides
 $primary: #485fc7;
-body{
-  width:100%;
-  // background-color: #343A40;
-}
+
 header{
   padding:20px;
-}
-.navbar-start{
-  background-color: #485fc7;
-  color: white;
-  border-radius: 10px;
-}
-.navbar-item{
-  &:hover{
-    background-color: darken(#485fc7,10%);
-    border-radius: 10px;
-  }
-  a{
-    color:white;
-    &:hover{
-      color: white;
-    }
-  }
 }
 @import "../../node_modules/bulma/sass/utilities/_all";
 @import "../../node_modules/bulma/sass/base/_all";
